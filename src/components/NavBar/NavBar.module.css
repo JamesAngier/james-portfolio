@@ -1,0 +1,11 @@
+.navbar {
+  background: linear-gradient(0.25turn, #e66465, #9198e5);
+}
+
+.title {
+  flex-grow: 1;
+}
+
+.menuButton {
+  margin-right: 10px;
+}

@@ -1,0 +1,12 @@
+.container {
+  margin: 10px;
+}
+
+.agentContainer {
+}
+
+.aboutMe {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 25px;
+}

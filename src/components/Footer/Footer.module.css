@@ -1,0 +1,51 @@
+.footerContainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-clip: padding-box;
+  background: linear-gradient(
+    0.25turn,
+    rgba(230, 100, 101, 0.4),
+    rgba(145, 152, 229, 0.4)
+  );
+  padding: 10px;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.formContainer {
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 10px;
+  column-gap: 10px;
+  grid-template-rows: auto auto;
+  grid-template:
+    "name email subject"
+    "message message message";
+}
+
+.nameField {
+  grid-area: name;
+}
+
+.emailField {
+  grid-area: email;
+}
+
+.subjectField {
+  grid-area: subject;
+}
+
+.messageField {
+  grid-area: message;
+}
+
+.submitBtn {
+  background: #e66465 !important;
+}
